@@ -1,3 +1,12 @@
+import Link from "next/link"
+
 export default function Products(){
-    return <div>Página de Produtos</div>
+    return (
+        <>
+        <h1>Página Produtos</h1>
+        <Link href="/">
+            Home
+        </Link>
+        </>
+    )
 }
