@@ -4,6 +4,11 @@ export default function Navbar(){
     return(
         <ul>
             <li>
+                <Link href="/">
+                    Home
+                </Link>
+            </li>
+            <li>
                 <Link href="/products">
                     Produtos
                 </Link>
