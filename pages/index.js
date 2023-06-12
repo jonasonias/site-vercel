@@ -1,3 +1,3 @@
 export default function Home(){
-    return <div>Ae</div>
+    return <div>Página Home</div>
 }
