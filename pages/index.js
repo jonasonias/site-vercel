@@ -1,10 +1,19 @@
-import Navbar from "../components/Navbar"
+import styles from '../styles/Home.module.css'
 
-export default function Home(){
-    return (
-        <div>
-            <Navbar />
-            <h1>Home</h1>
-        </div>
-    )
+import Head from 'next/head'
+
+export default function Home() {
+  return (
+    <>
+      <Head>
+        <title>Página principal</title>
+        <meta name="keywords" content="Roupas, Calçados, Bonés"></meta>
+        <meta
+          name="description"
+          content="Encontre a melhor roupa para você"
+        ></meta>
+      </Head>
+      <h1 className={styles.title}>Hello World Next!</h1>
+    </>
+  )
 }

@@ -1,14 +1,17 @@
-import Navbar from "../components/Navbar"
-import Link from "next/link"
+import Link from 'next/link'
 
-export default function About(){
-    return (
-        <>
-        <Navbar />
-        <h1>Sobre</h1>
-        <Link href="/">
-            Home
-        </Link>
-        </>
-    )
+import Head from 'next/head'
+
+export default function About() {
+  return (
+    <>
+      <Head>
+        <title>Sobre a empresa</title>
+      </Head>
+      <Link href="/">
+        Voltar
+      </Link>
+      <h1>Página de About</h1>
+    </>
+  )
 }
