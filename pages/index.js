@@ -1,5 +1,4 @@
-//import styles from '../styles/Home.module.css'
-//className={styles.title}
+import styles from '../styles/Home.module.css'
 
 import Head from 'next/head'
 
@@ -14,7 +13,7 @@ export default function Home() {
           content="Encontre a melhor roupa para você"
         ></meta>
       </Head>
-      <h1>Página principal</h1>
+      <h1 className={styles.title}>Página principal</h1>
     </>
   )
 }
