@@ -4,7 +4,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>Sobre a empresa</title>
+        <title>Sobre</title>
       </Head>
       <h1>Página de About</h1>
     </>

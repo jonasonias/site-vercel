@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Página principal</title>
+        <title>Principal</title>
         <meta name="keywords" content="Roupas, Calçados, Bonés"></meta>
         <meta
           name="description"
