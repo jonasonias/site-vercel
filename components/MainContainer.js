@@ -1,13 +1,14 @@
 import Navbar from './Navbar'
 import Footer from './Footer'
 
-import styles from '../styles/MainContainer.module.css'
+//import styles from '../styles/MainContainer.module.css'
+//className={styles.container}
 
 export default function Contact({ children }) {
   return (
     <>
       <Navbar />
-      <div className={styles.container}>{children}</div>
+      <div>{children}</div> 
       <Footer />
     </>
   )
