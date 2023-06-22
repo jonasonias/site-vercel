@@ -1,6 +1,7 @@
 .navbar {
     display: flex;
     background-color: #000;
+    background-image: url("/images/img2.jpg");
     padding: 20px 10px;
   }
   .navbar a {
