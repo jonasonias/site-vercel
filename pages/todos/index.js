@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from "../styles/Todos.module.css"
+import styles from "../../styles/Todos.module.css"
 
 export async function getStaticProps(){
 
